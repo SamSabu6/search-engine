@@ -1,0 +1,4 @@
+/* Reset all margins to 0 */
+* {
+  margin: 0;
+}

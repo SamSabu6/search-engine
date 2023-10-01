@@ -1,0 +1,63 @@
+.footer {
+  position: fixed; /* Position the footer at the bottom of the screen */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+.location_text {
+  display: flex; /* Display the location text as a flexbox row */
+  flex-direction: row;
+  margin-bottom: 10px;
+  color: #6f6f6f;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  border-bottom: 1px solid #dadce0; /* Add a border to the bottom of the location text */
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between; /* Spacing between left and right */
+  align-items: center; /* Vertically center the content */
+}
+.footerlinks_left {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.footerlinks_left a {
+  margin-right: 25px; /* Add margin between links*/
+  text-decoration: none;
+  color: #6f6f6f;
+  cursor: pointer; /* Make the left footer links clickable */
+}
+.footerlinks_right {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+.footerlinks_right a {
+  margin-right: 25px; /* Add margin between links*/
+  text-decoration: none;
+  color: #6f6f6f;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline; /* Add an underline to the links on hover */
+  color: #333; /* Change the color of the links on hover */
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 576px) {
+  .footer {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1080px) {
+  .footer {
+    font-size: 4px;
+  }
+}
