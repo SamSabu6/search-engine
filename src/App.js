@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         {/* This is the main container for all of the application's pages. */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/search-engine" element={<Home />} />
         </Routes>
       </div>
     </Router>
